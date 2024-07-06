@@ -1,0 +1,17 @@
+{
+  "apps": {
+    "name": "sub",
+    "script": "node",
+    "error_file": "./log/err.log",
+    "out_file": "./log/out.log",
+    "log_date_format": "YYYY/MM/DD HH:mm:ss",
+    "args": [
+      "sub-store.bundle.js"
+    ],
+    "env": {
+      "NODE_ENV": "production",
+      "SUB_STORE_FRONTEND_PATH":"./frontend",
+      "SUB_STORE_DATA_BASE_PATH":"./data"
+    }
+  }
+}
